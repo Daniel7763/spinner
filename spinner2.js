@@ -1,7 +1,7 @@
-const chars = ["|", "/", "-", "\\", "|", "/", "-", "\\"];
+const phases = ["|", "/", "-", "\\", "|", "/", "-", "\\"];
 
 let when = 0;
-for (const char of chars) {
+for (const char of phases) {
   when += 200;
   // console.log(char, when);
   setTimeout(() => {
